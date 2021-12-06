@@ -1,0 +1,440 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 20px;
+    font-family: 'Poppins', sans-serif;
+
+}
+
+
+section {
+    padding: 80px 0;
+  }
+
+
+.container{
+    min-width: 600px;
+    height: auto;
+    margin: 0 auto;
+}
+
+h1{
+    word-spacing: 1px;
+    text-align: center; 
+    margin-bottom: 30px;
+    font-size: 50px;
+    font-family: 'Parisienne', cursive;
+}
+
+h1:after {
+    display: block;
+    height: 2px;
+    background-color:  	#E0BFB8;
+    content: " "; 
+    width: 100px; 
+    margin: 0 auto;
+    margin-top: 30px;
+}
+
+
+
+.opcoes{
+ 
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.box {
+    flex-basis: 300px;
+    flex-grow: 1;
+    
+ 
+}
+
+.box p{
+    margin-top: 15px;
+}
+
+.box a{
+    width: 100%;
+}
+
+
+
+.opcoes img {
+    width: 100%;
+    height: auto;
+    transform: scale(0.95);
+    transition: transform 0.5s;
+    opacity: 0.7;
+    transition: transform 0.5s, opacity 0.5s;
+}
+
+.opcoes img:hover {
+    transform: scale(1); 
+    opacity:1;
+}
+
+.descrip{
+
+    text-align: center;
+}
+
+.display{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.display img{
+    width: 100%;
+    height: auto;
+}
+
+.caixa{
+ 
+    flex-basis: 400px;
+    flex-grow: 1;
+    margin: 5px;
+
+}
+
+.conteudo{
+    margin-left: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.imagem{
+    margin: 5px;   
+    flex-basis: 500px;
+
+}
+
+.texto{
+    margin: 5px;    
+    flex-basis: 100px;
+    flex-grow: 1;
+}
+
+.imagem img{
+    width: 100%;
+    height: auto;
+    border-radius:1%;
+}
+
+
+.reserva{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.reserva h2{
+    font-size: 28px;
+}
+
+.botao{
+    margin: 5px;    
+    padding: 10px 30px;
+    font-weight: 400;
+    text-decoration: none;
+    border-radius: 200px;
+    color: #000000;
+    border: 1px solid #000000;  
+    flex-grow: 1;  
+    flex-shrink: 1; 
+}
+
+
+.botao:hover {
+    background-color: #000000;;    
+    border: 1px solid #000000;;
+    color: #fff;   
+  
+}
+
+.texto ul{
+    margin-top: 20px;
+    margin-left: 25px;;
+}
+
+ul {
+    list-style-type:square;
+  }
+
+.ambiente{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+.ambiente{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction:row-reverse;
+    align-items: flex-start;
+    justify-content: space-evenly;
+    margin-left: 20px;
+}
+.ambiente p{
+    margin-bottom: 20px;
+}
+
+.caixa1{ 
+    flex-basis: 100px;
+    flex-grow: 1;
+    text-align: center;
+  
+}
+
+
+
+.caixa1 img{
+    width: 25%;
+}
+
+.lista{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction:column;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.ambiente h3{
+    margin-bottom: 20px;
+    font-size: 30px;
+}
+
+
+
+
+#reserva h3{
+    font-size: 30px;
+    color: #202020;
+    text-align: center;
+}
+
+#reserva h3:after{
+        background-color:  	#E0BFB8;
+        content: " "; 
+        display: block;
+        width: 100%;
+        height: 2px;
+        margin-top: 10px;
+}
+
+#nome, #email, #telefone, #servico{
+    color: 	#000000;
+    position: relative;
+    width: 95%;
+    margin-top: 4px;
+    padding: 10px;    
+    border: 1px solid #b2b2b2;
+
+}
+
+#reserva{
+    width: 100%;
+    height: auto;
+    position: relative;  
+    padding: 6% 6% 6% 6%;
+    margin: 0 0 35px 0;
+    background: #f7f7f7;
+    border: 1px solid #d1a69d;
+    
+}
+
+#botao-agendar{
+    width: 100%;
+    padding: 5px 40px;
+    font-size: 25px;
+    text-decoration: none;
+    border-radius: 200px;
+    color: #000000;
+    border: 1px solid #000000; 
+    margin-top: 15px;
+
+}
+
+#botao-agendar:hover{
+    background-color: #000000;   
+    border: 1px solid #000000;
+    color: #fff;   
+}
+
+#topo h1{
+    margin-top:50px;
+}
+
+#trabconosco{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction:column;
+    align-items: center;
+    justify-content:center;
+}
+
+.conteudos{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction:row;
+    align-items: flex-start;
+    justify-content:center;
+}
+
+.caixa3{
+    flex-basis: 350px;
+    margin: 30px;
+    margin-bottom: 40px;
+}
+
+.caixa3 img{
+    width: 100%;
+    border-radius:50%;
+}
+
+.caixa3 img:hover{
+    filter: brightness(120%)
+}
+
+#trabalheconosco{
+    width: 100%;
+    height: auto;
+    position: relative;  
+    padding: 6% 6% 6% 6%;
+    margin: 0 0 35px 0;
+    background: #f7f7f7;
+    border: 1px solid #d1a69d;
+}
+
+#botao-enviar{
+    width: 100%;
+    padding: 5px 40px;
+    font-size: 25px;
+    text-decoration: none;
+    border-radius: 200px;
+    color: #000000;
+    border: 1px solid #000000; 
+    margin-top: 15px;
+}
+
+#botao-enviar:hover{
+    background-color: #000000;   
+    border: 1px solid #000000;
+    color: #fff;
+}
+
+#trabalheconosco h3{
+    font-size: 30px;
+    color: #202020;
+    text-align: center;
+}
+
+#trabalheconosco h3:after{
+        background-color:  	#E0BFB8;
+        content: " "; 
+        display: block;
+        width: 100%;
+        height: 2px;
+        margin-top: 10px;
+}
+
+#profissionais{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction:column;
+    align-items: center;
+    justify-content:baseline;
+}
+.col{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction:row;
+    align-items: center;
+    justify-content:baseline;
+}
+
+.cont{
+
+    flex-basis: 400px;
+    flex-grow: 1;
+    margin: 8px;
+    text-align: left;
+}
+
+.cont img{
+    width: 100%;
+}
+
+
+
+#sobre{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction:column;
+    align-items: center;
+    justify-content:center;
+    
+}
+
+#sobre > div{
+    flex-basis: 200px;
+    flex-grow: 1;
+    margin: 10px;
+    text-align: center;
+    
+}
+
+#sobre iframe{
+    overflow: hidden;
+}
+
+#sobre h2{
+    margin-bottom: 20px;
+    font-size: 30px;
+}
+#sobre p{
+    font-size: 25px;
+}
+
+.fotos{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction:row;
+    align-items: center;
+    justify-content:center;
+}
+
+.img{
+    flex-basis: 600px;
+    margin: 8px;
+    flex-grow: 1;
+}
+
+.img img{
+    width: 100%;
+    transform: scale(0.95);
+    transition: transform 0.5s;
+}
+
+.img img:hover{
+    transform: scale(1); 
+}

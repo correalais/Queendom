@@ -1,0 +1,47 @@
+@media only screen and (max-width: 1350px){
+    .lista{
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction:row;
+        align-items: center;
+        justify-content:center;
+        
+        
+    }
+
+    .caixa1 img{
+        width: 30%;
+    }
+}
+
+@media only screen and (max-width: 666px){
+    .mobile-icon{
+        display: inline-block;
+
+    }
+
+    .mobile-icon ion-icon{
+        font-size: 200%;
+        color: #fff;
+    }
+
+
+    #navegacao ul li {
+        display: block;
+    }
+
+    #navegavao li a:link,
+    #navegacao li a:visited{
+        border: 0;
+        padding: 10px 0;
+        font-size: 100%;
+    }
+
+    #navegacao li a:hover{
+        border-bottom: none;
+    }
+
+    .listamenu{
+        display: none;
+    }
+}

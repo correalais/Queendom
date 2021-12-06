@@ -1,0 +1,81 @@
+footer{
+    background-color: black;
+    font-family:'Poppins', sans-serif;
+    font-size: 16px;
+    color: white;
+    padding: 10px;
+    
+}
+
+.divfooter{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items:center;
+    justify-content: space-evenly;
+}
+
+.logofooter{
+    
+    display: flex;
+    flex-wrap: wrap;
+    flex-basis: 500px;
+    flex-direction: column;
+    align-items:flex-start;
+    justify-content: baseline;
+
+    
+}
+
+.imagemfooter{
+    display: flex;
+    flex-wrap: wrap;
+    align-items:center;
+}
+
+
+.logofooter p{
+    margin-bottom: 20px;
+}
+
+.logofooter img{
+    height: 300px;
+    margin-left: 80px;
+    width: auto;
+}
+
+.redes{
+    display: flex;
+    flex-wrap: wrap;
+    flex-basis: 500px;
+    flex-direction: column;
+    align-items:center;
+}
+    
+
+
+.redes img{
+    height: 50px;
+    width: auto;
+    margin: 15px;
+    margin-bottom: 30px;
+}
+
+
+
+.redes h2{
+    font-size: 30px;
+
+}
+.imagens{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items:center;
+    justify-content: center;
+}
+
+#mapa{
+    flex-basis: 500px;
+    overflow: hidden;
+}
