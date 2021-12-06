@@ -374,7 +374,7 @@ ul {
 
 .cont{
 
-    flex-basis: 400px;
+    flex-basis: 450px;
     flex-grow: 1;
     margin: 8px;
     text-align: left;
@@ -437,4 +437,17 @@ ul {
 
 .img img:hover{
     transform: scale(1); 
+}
+
+.redes-sociais{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction:row;
+    align-items: center;
+    justify-content:center;
+}
+
+.redes-sociais > div{
+    flex-basis: 50px;
+    margin: 15px;
 }
