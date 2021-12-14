@@ -1,13 +1,13 @@
 
 .logo img{
-    height: 120px;
+    height: 150px;
     width: auto;
-
 }
 
 
 #slider {
     overflow: hidden;
+    height: 82vh;
  
     }
 
@@ -30,6 +30,7 @@
 #navegacao ul li{
     display: inline-block;
 }
+
 
 
 
@@ -84,7 +85,9 @@
     background-color: #000000;
     
     
+    
 }
+
 
 #navegacao a{
     text-decoration: none;
@@ -104,11 +107,23 @@ ul li a:hover{
     left: 0;
     width: 100%;
     z-index: 999;
+    animation: slide 1s;
+    
+}
+
+@keyframes slide{
+    0%{
+        transform: translateY(-100px)
+    }  
+
+    100%{
+        transform: translateY(0)
+    }
 }
 
 .sticky .navegacao a:link, 
 .sticky .navegacao a:visited{
-    padding: 8px, 0;
+    padding: 8px 0px;
 }
 
 .mobile-icon{
@@ -116,4 +131,5 @@ ul li a:hover{
     float: right;
     
 }
+
 

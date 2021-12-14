@@ -14,7 +14,8 @@ section {
 
 
 .container{
-    min-width: 600px;
+    min-width: 550px;
+    max-width: 1920px;
     height: auto;
     margin: 0 auto;
 }
@@ -242,7 +243,7 @@ ul {
         margin-top: 10px;
 }
 
-#nome, #email, #telefone, #servico{
+#nome, #email, #telefone, #servicos{
     color: 	#000000;
     position: relative;
     width: 95%;
@@ -250,6 +251,15 @@ ul {
     padding: 10px;    
     border: 1px solid #b2b2b2;
 
+}
+
+#name, #e-mail, #tel, #vagas{
+    color: 	#000000;
+    position: relative;
+    width: 95%;
+    margin-top: 4px;
+    padding: 10px;    
+    border: 1px solid #b2b2b2;
 }
 
 #reserva{
@@ -302,9 +312,10 @@ ul {
 }
 
 .caixa3{
+    margin-top: 70px;
     flex-basis: 350px;
-    margin: 30px;
-    margin-bottom: 40px;
+    margin: 20px;
+    margin-bottom: 70px;
 }
 
 .caixa3 img{
@@ -316,14 +327,46 @@ ul {
     filter: brightness(120%)
 }
 
+#trabconosco{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction:row-reverse;
+    align-items: center;
+    justify-content:space-evenly;
+}
+
+#trabconosco > div{
+  margin: 30px;
+  
+}
+
+#trabconosco h3{
+    text-align: center;
+    margin-bottom: 10px;
+    font-size: 30px;
+}
+
+.mapa h3::after{
+    background-color:  	#E0BFB8;
+    content: " "; 
+    display: block;
+    width: 100%;
+    height: 2px;
+    margin-top: 10px;
+    margin-bottom: 15px;;
+}
+
+
+
 #trabalheconosco{
     width: 100%;
     height: auto;
-    position: relative;  
+    position: relative;
     padding: 6% 6% 6% 6%;
     margin: 0 0 35px 0;
     background: #f7f7f7;
     border: 1px solid #d1a69d;
+
 }
 
 #botao-enviar{
@@ -363,14 +406,14 @@ ul {
     flex-wrap: wrap;
     flex-direction:column;
     align-items: center;
-    justify-content:baseline;
+    justify-content:center;
 }
 .col{
     display: flex;
     flex-wrap: wrap;
     flex-direction:row;
     align-items: center;
-    justify-content:baseline;
+    justify-content:center;
 }
 
 .cont{
@@ -385,6 +428,13 @@ ul {
     width: 100%;
 }
 
+.cont > div{
+    width: 100%;
+}
+
+.listamenu{
+    display: block;
+}
 
 
 #sobre{
@@ -399,12 +449,12 @@ ul {
 #sobre > div{
     flex-basis: 200px;
     flex-grow: 1;
-    margin: 10px;
     text-align: center;
+    margin-bottom: 20px;
     
 }
 
-#sobre iframe{
+#topo iframe{
     overflow: hidden;
 }
 
@@ -414,6 +464,8 @@ ul {
 }
 #sobre p{
     font-size: 25px;
+    margin-left: 25px;
+    text-align: left;
 }
 
 .fotos{
