@@ -121,10 +121,6 @@ ul li a:hover{
     }
 }
 
-.sticky .navegacao a:link, 
-.sticky .navegacao a:visited{
-    padding: 8px 0px;
-}
 
 .mobile-icon{
     display: none;
