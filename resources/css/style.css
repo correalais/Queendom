@@ -38,6 +38,24 @@ h1:after {
     margin-top: 30px;
 }
 
+.linha h3{
+    word-spacing: 1px;
+    text-align: center; 
+    margin-bottom: 30px;
+    font-size: 50px;
+    font-family: 'Parisienne', cursive;
+}
+
+.linha h3::after{
+    display: block;
+    height: 2px;
+    background-color:  	#E0BFB8;
+    content: " "; 
+    width: 100px; 
+    margin: 0 auto;
+    margin-top: 30px;
+}
+
 
 
 .opcoes{
@@ -124,7 +142,7 @@ h1:after {
 
 .texto{
     margin: 5px;    
-    flex-basis: 100px;
+    flex-basis: 300px;
     flex-grow: 1;
 }
 
@@ -183,6 +201,8 @@ ul {
     align-items: center;
     justify-content: center;
 }
+
+
 
 
 
@@ -341,6 +361,12 @@ ul {
 }
 
 #trabconosco h3{
+    text-align: center;
+    margin-bottom: 10px;
+    font-size: 50px;
+}
+
+#trabconosco h4{
     text-align: center;
     margin-bottom: 10px;
     font-size: 30px;
